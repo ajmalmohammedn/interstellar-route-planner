@@ -12,9 +12,10 @@ markdown = "*"
 django-filter = "*"
 drf-spectacular = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 coverage = "*"
 
 [requires]
-python_version = "3.11"
+python_version = "3.13"
