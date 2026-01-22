@@ -1,0 +1,255 @@
+[
+{
+  "model": "app.gate",
+  "pk": "ALD",
+  "fields": {
+    "name": "Aldermain",
+    "connections": [
+      {
+        "hu": "200",
+        "id": "SOL"
+      },
+      {
+        "hu": "160",
+        "id": "ALS"
+      },
+      {
+        "hu": "320",
+        "id": "VEG"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "ALS",
+  "fields": {
+    "name": "Alshain",
+    "connections": [
+      {
+        "hu": "1",
+        "id": "ALT"
+      },
+      {
+        "hu": "1",
+        "id": "ALD"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "ALT",
+  "fields": {
+    "name": "Altair",
+    "connections": [
+      {
+        "hu": "140",
+        "id": "FOM"
+      },
+      {
+        "hu": "220",
+        "id": "VEG"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "ARC",
+  "fields": {
+    "name": "Arcturus",
+    "connections": [
+      {
+        "hu": "500",
+        "id": "SOL"
+      },
+      {
+        "hu": "120",
+        "id": "DEN"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "CAS",
+  "fields": {
+    "name": "Castor",
+    "connections": [
+      {
+        "hu": "200",
+        "id": "SIR"
+      },
+      {
+        "hu": "120",
+        "id": "PRO"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "DEN",
+  "fields": {
+    "name": "Denebula",
+    "connections": [
+      {
+        "hu": "5",
+        "id": "PRO"
+      },
+      {
+        "hu": "2",
+        "id": "ARC"
+      },
+      {
+        "hu": "8",
+        "id": "FOM"
+      },
+      {
+        "hu": "100",
+        "id": "RAN"
+      },
+      {
+        "hu": "3",
+        "id": "ALD"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "FOM",
+  "fields": {
+    "name": "Fomalhaut",
+    "connections": [
+      {
+        "hu": "10",
+        "id": "PRX"
+      },
+      {
+        "hu": "20",
+        "id": "DEN"
+      },
+      {
+        "hu": "9",
+        "id": "ALS"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "PRO",
+  "fields": {
+    "name": "Procyon",
+    "connections": [
+      {
+        "hu": "80",
+        "id": "CAS"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "PRX",
+  "fields": {
+    "name": "Proxima",
+    "connections": [
+      {
+        "hu": "90",
+        "id": "SOL"
+      },
+      {
+        "hu": "100",
+        "id": "SIR"
+      },
+      {
+        "hu": "150",
+        "id": "ALT"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "RAN",
+  "fields": {
+    "name": "Ran",
+    "connections": [
+      {
+        "hu": "100",
+        "id": "SOL"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "SIR",
+  "fields": {
+    "name": "Sirius",
+    "connections": [
+      {
+        "hu": "80",
+        "id": "SOL"
+      },
+      {
+        "hu": "10",
+        "id": "PRX"
+      },
+      {
+        "hu": "200",
+        "id": "CAS"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "SOL",
+  "fields": {
+    "name": "Sol",
+    "connections": [
+      {
+        "hu": "100",
+        "id": "RAN"
+      },
+      {
+        "hu": "90",
+        "id": "PRX"
+      },
+      {
+        "hu": "100",
+        "id": "SIR"
+      },
+      {
+        "hu": "200",
+        "id": "ARC"
+      },
+      {
+        "hu": "250",
+        "id": "ALD"
+      }
+    ]
+  }
+},
+{
+  "model": "app.gate",
+  "pk": "VEG",
+  "fields": {
+    "name": "Vega",
+    "connections": [
+      {
+        "hu": "220",
+        "id": "ARC"
+      },
+      {
+        "hu": "580",
+        "id": "ALD"
+      }
+    ]
+  }
+}
+]

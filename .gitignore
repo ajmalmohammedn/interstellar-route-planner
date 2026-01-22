@@ -27,3 +27,4 @@ terraform/*.tfvars
 
 # Docker
 postgres_data/
+.env.docker

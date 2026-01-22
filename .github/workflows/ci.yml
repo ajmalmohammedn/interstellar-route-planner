@@ -10,7 +10,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      SECRET_KEY: test-secret-key-for-ci-only
+      SECRET_KEY: 1ywad8z+r57$p-$)#u)+bc7^*w675z%=mcfb3msun&pwk+5qeb
       DEBUG: True
       ALLOWED_HOSTS: localhost,127.0.0.1
       DB_NAME: interstellar_test
