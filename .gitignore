@@ -25,17 +25,9 @@ terraform/.terraform/
 terraform/*.tfstate*
 terraform/*.tfvars
 terraform/.terraform.lock.hcl
+terraform/*.tfplan
+terraform/tfplan
 terraform/crash.log
 
 # Docker
 postgres_data/
-.env.docker
-
-# Terraform
-*.tfplan
-tfplan
-*.tfstate
-*.tfstate.*
-.terraform/
-.terraform.lock.hcl
-terraform.tfvars
