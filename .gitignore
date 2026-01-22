@@ -30,3 +30,12 @@ terraform/crash.log
 # Docker
 postgres_data/
 .env.docker
+
+# Terraform
+*.tfplan
+tfplan
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
