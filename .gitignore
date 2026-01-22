@@ -24,6 +24,8 @@ Pipfile.lock
 terraform/.terraform/
 terraform/*.tfstate*
 terraform/*.tfvars
+terraform/.terraform.lock.hcl
+terraform/crash.log
 
 # Docker
 postgres_data/
