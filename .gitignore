@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+staticfiles/
+
+# Environment
+.env
+.env.docker
+Pipfile.lock
+
+# VS Code
+.vscode/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate*
+terraform/*.tfvars
+
+# Docker
+postgres_data/
