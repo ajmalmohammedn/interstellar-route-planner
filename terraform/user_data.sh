@@ -27,6 +27,9 @@ apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin do
 
 systemctl enable --now docker
 
+# Add ubuntu user to docker group
+usermod -aG docker ubuntu
+
 docker version
 docker compose version
 

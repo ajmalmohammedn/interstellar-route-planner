@@ -24,21 +24,15 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /opt/app/
+            set -e
+            cd /opt/app
             
             # Pull latest changes
             git pull origin main
             
-            # Rebuild and restart containers
-            # docker-compose down
-            docker compose build --no-cache
-            docker compose up -d
-            
-            # # Run migrations inside the container
-            # docker compose exec -T web python manage.py migrate --noinput
-            
-            # # Collect static files
-            # docker compose exec -T web python manage.py collectstatic --noinput
+            # Rebuild and restart containers (migrations run automatically in compose file)
+            docker compose -f docker-compose.prod.yml down
+            docker compose -f docker-compose.prod.yml up -d --build
             
             # Clean up old images
             docker image prune -f
