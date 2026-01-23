@@ -1,6 +1,6 @@
 # Interstellar Route Planner
 
-A Django-based route planner for interstellar travel using shortest-path algorithms.
+A Django-based route planner for interstellar travel using shortest-path algorithm.
 
 ## Run with Docker (steps)
 
